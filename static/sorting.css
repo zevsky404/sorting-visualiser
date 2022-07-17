@@ -1,0 +1,17 @@
+body {
+  background-color: #1a1919;
+}
+
+#page-title {
+  text-align: center;
+  color: whitesmoke;
+  margin: 7px;
+}
+
+.btn-outline-light {
+  margin: 5px;
+}
+
+.navbar {
+  background-color: #1a1919 !important;
+}

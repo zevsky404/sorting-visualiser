@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="static/sorting.css">
   <title>Sorting Visualiser</title>
   <script src="static/sorting.js"></script>
+  <script src="static/bubble-sort.js"></script>
+  <script src="static/insertion-sort.js"></script>
+  <script src="static/merge-sort.js"></script>
+  <script src="static/quick-sort.js"></script>
+  <script src="static/selection-sort.js"></script>
 </head>
 <body>
 <header class="page-header" id="page-header">
@@ -30,6 +35,10 @@
       event.preventDefault();
       createBars();
     });
+    document.getElementById('bubble-sort').addEventListener('click', function (event) {
+      event.preventDefault();
+      bubbleSort();
+    })
   </script>
   <div class="bars-container" id="bars-div"></div>
 

@@ -10,6 +10,7 @@ body {
 
 .btn-outline-light {
   margin: 5px;
+  border-radius: 1px;
 }
 
 .navbar {
@@ -20,10 +21,14 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
   gap: 5px;
-  flex-basis: 20px;
+  flex-basis: 30px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .bar {

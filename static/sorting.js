@@ -22,7 +22,7 @@ function getHeight(element) {
   const style = window.getComputedStyle(element);
   const heightString = style.getPropertyValue('height');
   const height = heightString.replace("px", '');
-  return height;
+  return parseInt(height);
 }
 
 function swap(element1, element2) {

@@ -15,3 +15,21 @@ body {
 .navbar {
   background-color: #1a1919 !important;
 }
+
+.bars * {
+  display: block;
+  width: 3px;
+  color: darkorange;
+  outline-color: dimgrey;
+
+}
+
+.bar {
+  background-color: cornflowerblue;
+  margin: 7px;
+}
+
+.test-div {
+  border-color: cornflowerblue;
+  background-color: cornflowerblue;
+}

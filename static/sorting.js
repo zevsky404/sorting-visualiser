@@ -35,3 +35,7 @@ function swap(element1, element2) {
   element1.style.height = height2;
   element2.style.height = height1;
 }
+
+function delay(time = 2000) {
+  return new Promise(resolve => {setTimeout(() => resolve(), time)});
+}

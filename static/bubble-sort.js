@@ -10,11 +10,9 @@ async function bubbleSort() {
       if (getHeight(bars[j]) > getHeight(bars[j + 1])) {
         swap(bars[j], bars[j + 1]);
       }
-      bars[j + 1].style.background = "lightgreen";
-      bars[j].style.background = "cornflowerblue";
-      await new Promise(resolve => setTimeout(() => {resolve(), 2000}));
+      await delay(100);
     }
-
+    bars[arraySize - i - 1].style.background = "lightgreen";
   }
 
 
